@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+.nav .logo img{
+    width:100px
+
+}
+.header{
+    background: url(/static/image/header_img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .title{
+    text-align: center;
+}
+
+.header .title h1{
+    font-size: 100px;
+    color: lightgoldenrodyellow;
+    letter-spacing: 0.2em;
+    margin-bottom: 0;
+}
+
+.header .title button{
+    margin-top: 50px;
+    background: burlywood;
+    color: ivory;
+    border: 2px solid lightgoldenrodyellow;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 14px;
+    transition: .5s ease;
+}
+.header .title button:hover{
+    transition: .5s ease;
+    border: 2px solid lightgoldenrodyellow;
+    background: transparent;
+    color: brack;
+}
+.intro{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.intro .card{
+    flex: 1;
+    text-align: center;
+    margin: 150px 40px;
+    
+}
+.intro .card h1{
+    color: darkkhaki;
+    margin-bottom: 30px;
+    letter-spacing: 0.2em;
+}
+.intro .card p{
+    color: brack;
+    font-size: 10px;
+}
