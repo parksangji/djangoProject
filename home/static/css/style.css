@@ -62,14 +62,12 @@ body{
     flex: 1;
     text-align: center;
     margin: 150px 40px;
+    font-size: 100px;
     
 }
-.intro .card h1{
-    color: darkkhaki;
-    margin-bottom: 30px;
+.intro .card h2{
+    color: lightgoldenrodyellow;
+    font-size: 50px;
     letter-spacing: 0.2em;
-}
-.intro .card p{
-    color: brack;
-    font-size: 10px;
+    margin-bottom: 10;
 }

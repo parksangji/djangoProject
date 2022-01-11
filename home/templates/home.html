@@ -20,25 +20,19 @@
         </section>
 
         <section class="intro">
-            <div class="card" >
-                <div class="logo">
-                    <img src="" alt="">
-                </div>
-                <h1>cat</h1>
-            </div>
-            <div class="card">
-                <div class="logo">
-                    <img src="" alt="">
-                </div>
-                <h1>cat</h1>
-            </div>
-            <div class="card">
-                <div class="logo">
-                    <img src="" alt="">
-                </div>
-                <h1>cat</h1>
-            </div>
-        
+            {% for cat in post_latest %}
+                {% if forloop.first %}
+                    <div class="card" >
+                        <h2> {{cat.cat_name}} </h2>
+                        <img src=" media/{{ cat.cat_image }}" alt="">
+                    </div>
+                {% else %}
+                    <div class="card" >
+                        <h2> {{cat.cat_name}} </h2>
+                        <img src=" media/{{ cat.cat_image }}" alt="">
+                    </div>
+                {% endif %} 
+            {% endfor %}
         </section>
 
         <section class="service">
